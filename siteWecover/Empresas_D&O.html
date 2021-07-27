@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!--initial declarations-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--StyleLinks-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Eventualmente link para fonte necessária -->
+
+    <title>D&amp;O</title>
+    <link rel="shortcut icon" href="images/wTabTitle.jpg"/>
+
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+      <nav id="header-nav" class="navbar navbar-default navbar-fixed-top"> <!-- container 100% da pagina -->
+        <div class="container-fluid"> <!-- container com padings que contem o cabeçalho -->
+
+          <div class="navbar-header"> <!-- navigation bar -->
+
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  <!-- Botão de navegação para ecrãs pequenos-->
+              <span class="sr-only">Toggle nav</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse"> <!-- links para variadas landing pages-->
+              <ul id="nav-list" class="nav navbar-nav navbar-left">
+                <li>
+                  <a href="Home.html">Home</a>
+                </li>
+                <li>
+                  <a href="Empresas.html">Empresas</a>
+                </li>
+                <li>
+                  <a href="Particulares.html">Particulares</a>
+                </li>
+                <li>
+                  <a href="Contactos.html">Contactos</a>
+                </li>
+              </ul>
+            </div>
+
+          </div> 
+
+          <div class="navbar-brand">  <!-- Logo clicável da WECOVER -->
+            <a href="Home.html">
+              <img alt="Brand" src="images/wecoverLogo.png">
+            </a>
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <div class="conteudo text-center">
+      <h1>Seguros de Administradores</h1>
+    </div>
+    <div class="conteudo text-center">
+      <h3>Assegure a sua empresa. assegure-se a si</h3>
+    </div>
+
+    <div class="conteudo text-center">
+      <h3>Imagem bonita</h3>
+    </div>
+
+    <div class="conteudo text-center">
+      <h1>Explicação</h1>
+    </div>
+    <div class="conteudo text-center">
+      <h3>Descrição super descritiva</h3>
+    </div>
+
+    
+    <div class="container containerForm">
+
+      <h2>Submissão de dados</h2>
+
+      <div class="row rowForm">
+
+        <div class="col-xs-8">
+          <label for="txtName" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="txtName">
+        </div>
+        <div class="col-xs-4">
+          <label for="txtNIF" class="form-label">NIF</label>
+          <input type="text" class="form-control" id="txtNIF" required>
+        </div>
+
+      </div>
+
+      <div class="row rowForm">
+
+        <div class="col-xs-6">
+          <label for="txtMorada" class="form-label">Morada</label>
+          <input type="text" class="form-control" id="txtMorada" placeholder="">
+        </div>
+        <div class="col-xs-2">
+          <label for="txtCP" class="form-label">Código Postal</label>
+          <input type="text" class="form-control" id="txtCP" placeholder="">
+        </div>
+        <div class="col-xs-4">
+          <label for="txtLoc" class="form-label">Localidade</label>
+          <input type="text" class="form-control" id="txtLoc" placeholder="">
+        </div>
+
+      </div>
+
+      <div class="row rowForm">
+
+        <div class="col-xs-4">
+          <label for="txtTel" class="form-label">Telefone</label>
+          <input type="text" class="form-control" id="txtTel" placeholder="">
+        </div>
+        <div class="col-xs-4">
+          <label for="txtEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
+        </div>
+        <div class="col-xs-4">
+          <label for="txtPagWeb" class="form-label">Página Web</label>
+          <input type="text" class="form-control" id="txtPagWeb" placeholder="">
+        </div>
+
+      </div>
+
+      <div class="row rowForm">
+
+        <div class="col-xs-12">
+          <label for="txtAtividade" class="form-label">Atividade</label>
+          <input type="text" class="form-control" id="txtAtividade" placeholder="">
+        </div>
+
+      </div>
+
+      <div class="row rowForm">
+        <div class="col-xs-2 text-left">
+          <button class="btn btn-primary" id="botaoNextForm" onclick="preenchido()"> 
+            Next <span class="glyphicon glyphicon-play"></span>
+          </button>
+          <!-- <button id="btnSubmit" type="submit" class="btn btn-primary">Next <span class="glyphicon glyphicon-play"></span></button> -->
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted rodape">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+              </h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

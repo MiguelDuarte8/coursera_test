@@ -1,0 +1,161 @@
+.navbar-collapse{
+	position: absolute;
+}
+
+
+.navbar-toggle{
+		position: absolute;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.navbar-brand{
+
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-brand>a>img{
+	display: inline;
+	width: 150px; 
+	height: 25px;
+}
+
+.cabecalho{
+	margin-bottom: 100px;
+}
+
+.conteudo{
+	margin: 50px;
+}
+
+.conteudo>h3{
+	border: 1px solid transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #e7e7e7;
+	padding-bottom: 50px;
+}
+
+.rodape{
+	margin-top: 50px;
+	background-color: #f8f8f8;
+	color: black;
+	border-top: 1px solid transparent;
+	border-color: #e7e7e7;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-collapse{
+	margin-top: 50px;
+	background-color: #f8f8f8;
+	border: 1px solid transparent;
+	border-top: none;
+}
+}
+
+.botoesProdutos{
+	color: black;
+
+	
+}
+
+.botoesProdutos a:hover, .botoesProdutos a:focus{
+	text-decoration: none;
+	color: black;
+}
+
+.row>a{
+	line-height: 3em;
+	font-size: 24px;
+}
+
+.separacao{
+	background-color: #f8f8f8;
+	color: black;
+	border-radius: 50px;
+}
+
+.rowForm{
+	margin-bottom: 30px;
+	margin-top: 15px;
+	min-height: fit-content;
+}
+
+#btnSubmit{
+	vertical-align: bottom;
+}
+
+.containerForm{
+	border: 1px solid transparent;
+	border-color: #e7e7e7;
+	border-radius: 10px;
+}
+
+.tooltipDiv{
+	cursor: help;
+	position: relative;
+
+}
+
+
+.tooltipText{
+	visibility: hidden;
+	position: relative;
+	background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  
+  z-index: 1;
+  
+}
+
+.tooltipDiv:hover .tooltipText{
+	visibility: visible;
+	position: relative;
+	
+	overflow: hidden;
+	text-align: center;
+}  
+
+/*
+#botaoNextForm[disabled="true"]{
+	pointer-events: none;
+}
+
+#botaoNextForm[disabled="false"]{
+	pointer-events: all;
+}*/
+
+.tooltipDiv>img{
+	max-width: 100%;
+	max-height: 210px;
+}
+
+.item>img{
+	width: 100%;
+	max-height: 550px;
+	}
+
+.menuBotoes{
+	background-color: #6184F3;
+}
+
+.notValid{
+	border-color: red;
+}
+
+.radioNoDisplay{
+	appearance: none;
+	background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radioNoDisplay:checked{
+	background-color: blue;
+	color: white;
+}
